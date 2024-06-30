@@ -1,6 +1,7 @@
-/* .hero{ */
-    /* background-image: url(''); */
-    /* height: 100vh; */
-    /* width: 100vw; */
-    /* background-size: cover; */
-/* } */
+.back{
+    background-image: url('https://img.freepik.com/premium-photo/black-stone-food-background-vegetables-spices-black-old-table_187166-9025.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }

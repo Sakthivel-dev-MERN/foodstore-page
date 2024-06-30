@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap " rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Hero section -->
     <section>
-        <div class="bg-[url('https://images.immediate.co.uk/production/volatile/sites/30/2020/09/lentils-and-tofu5023-a776344.jpg?quality=45&resize=960,872')] bg-cover h-[487px] bg-no-repeat 2xl:container mx-auto h-[]">
+        <div class="back 2xl:container mx-auto font-[poppins]">
             <div class="w-[90%] mx-auto h-full grid grid-cols-1">
                     <div class="flex flex-col justify-center items-center gap-2">
                         <h1 class=" textfont-bold text-3xl text-white">Get Delicious Food Anytime</h1>
@@ -20,8 +21,8 @@
                         <p></p>
 
                         <div class="flex space-x-1">
-                            <button class="bg-yellow-300 rounded-2xl px-3 py-2 hover:bg-white hover:transition ease-in-out ">view Menu</button>
-                            <button class="bg-transparent border rounded-2xl px-3 py-2 hover:bg-white hover:transition ease-in-out">Order Now</button>
+                            <button class="bg-yellow-500 text-white rounded-2xl px-3 py-2  hover:bg-white hover:text-black hover:transition ease-in-out ">view Menu</button>
+                            <button class="bg-transparent backdrop-blur-sm text-white border rounded-2xl px-3 py-2 hover:bg-white hover:text-black hover:transition ease-in-out">Order Now</button>
                         </div>
                     </div>
             </div>
@@ -29,26 +30,16 @@
     </section>
     <!-- Hero section -->
     <!-- why choose section -->
-    <section>
-        <div class="2xl:container mx-auto border bg-contain py-2">
-            <div class="w-[90%] h-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                <div class="flex flex-col justify-center items-center border rounded-xl">
-                    <img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-food-icon-design-vector-png-image_5243044.jpg" alt="card-Image"/>
-                    <div>choose us</div>
-                </div>
-                <div class="flex flex-col justify-center items-center border rounded-xl">
-                    <img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-food-icon-design-vector-png-image_5243044.jpg" alt="card-Image"/>
-                    <div>choose us</div>
-                </div>
-                <div class="flex flex-col justify-center items-center border rounded-xl">
-                    <img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-food-icon-design-vector-png-image_5243044.jpg" alt="card-Image"/>
-                    <div>choose us</div>
-                </div>
-                
+     <div class="2xl:container mx-auto font-[poppins]">
+        <div class="w-[90%] h-full mt-4 mx-auto grid grid-cols-1">
+            <div class="flex flex-col justify-centre items-start">
+                <h1 class="text-2xl text-[#315679] font-bold">Why Choose Us?</h1>
+                <p>We use both original recipes and classic version of famous food items.</p>
             </div>
         </div>
-    </section>
+     </div>
     <!-- why choose section -->
+    
     
 </body>
 </html>
