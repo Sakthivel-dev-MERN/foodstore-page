@@ -5,3 +5,10 @@
     background-size: cover;
     background-repeat: no-repeat;
  }
+
+ .visa{
+    background-image: url('./assets/visa.png');
+    height: auto;
+    width: auto;
+
+ }
