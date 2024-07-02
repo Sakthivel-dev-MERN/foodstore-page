@@ -1,14 +1,16 @@
-.back{
-    background-image: url('https://img.freepik.com/premium-photo/black-stone-food-background-vegetables-spices-black-old-table_187166-9025.jpg');
+.back{ 
+    background-image: url('./assets/hero-section.jpg');
     height: 500px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
- }
+  }
 
- .visa{
-    background-image: url('./assets/visa.png');
-    height: auto;
-    width: auto;
+.glass {
+    background-color: rgb(0, 156, 218);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
- }
+
+}
+
